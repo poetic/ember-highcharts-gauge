@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+- [Doc] How to add solid gauge chart
+- Add solid gauge chart module
+
 ## 0.1.3
 
 - [DOC] How to override chart redrawing

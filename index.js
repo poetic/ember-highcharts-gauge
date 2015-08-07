@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-highcharts',
+  name: 'ember-highcharts-extra',
 
   setupPreprocessorRegistry: function(type, registry) {
     var options = getOptions(this.parent && this.parent.options && this.parent.options['babel']);
@@ -42,6 +42,11 @@ module.exports = {
     if (options.includeHighCharts3D){
       app.import('vendor/highcharts-3d-release/highcharts-3d.src.js');
     }
+
+    if (options.includeSolidGauge) {
+      app.import('vendor/modules/solid-gauge.js');
+    }
+
   }
 };
 

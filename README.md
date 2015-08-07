@@ -17,8 +17,9 @@ var app = new EmberApp({
     includeHighCharts: false,
     includeHighStock: true,
     includeHighMaps: true,
-    includeHighChartsMore: true
-    includeHighCharts3D: true
+    includeHighChartsMore: true,
+    includeHighCharts3D: true,
+    includeSolidGauge: true,
   }
   ---
 });
