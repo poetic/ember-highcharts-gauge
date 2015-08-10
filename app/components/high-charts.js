@@ -1,3 +1,3 @@
-import HighCharts from 'ember-highcharts/components/high-charts';
+import HighCharts from 'ember-highcharts-extra/components/high-charts';
 
 export default HighCharts;
