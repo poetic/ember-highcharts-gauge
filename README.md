@@ -5,7 +5,7 @@ A [Highcharts](http://www.highcharts.com/products/highcharts), [Highstock](http:
 ## Installation
 
 ```
-ember install:addon ember-highcharts
+ember install:addon ember-highcharts-extra
 ```
 
 This addon will use Highcharts by default, if you want to use Highstocks, Highmaps, Highcharts-more and/or Highcharts-3D, add this options to your `Brocfile.js`:

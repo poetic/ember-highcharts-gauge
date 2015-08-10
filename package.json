@@ -1,6 +1,6 @@
 {
   "name": "ember-highcharts-extra",
-  "version": "0.1.4",
+  "version": "0.1.41",
   "description": "A Highcharts, HighStock and HighMaps component for ember cli extended with a solid gauge",
   "directories": {
     "doc": "doc",
